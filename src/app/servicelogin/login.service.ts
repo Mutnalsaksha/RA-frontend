@@ -14,6 +14,6 @@ export class LoginService  {
 
   constructor(private http:HttpClient) { }
   getlogin(){
-    return this.http.get("http://localhost:5000/api/login");
+    return this.http.get("https://rmsadmin-backend-2.onrender.com/api/login");
   }
 }

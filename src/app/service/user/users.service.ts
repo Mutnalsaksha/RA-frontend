@@ -6,18 +6,19 @@ import {Observable} from "rxjs";
   providedIn: 'root'
 })
 export class UsersService {
+  private readonly baseUrl = 'https://rmsadmin-backend-2.onrender.com/api/contacts';
 
   constructor(private http:HttpClient) { }
   getusers(){
-    return this.http.get("http://localhost:5000/api/contacts")
+    return this.http.get(this.baseUrl);
   }
 
   updateUser(user: any): Observable<any> {
-    return this.http.put<any>(`http://localhost:5000/api/contacts/${user._id}`, user);
+    return this.http.put<any>(`${this.baseUrl}/${user._id}`, user);
   }
 
   deleteUser(user: any): Observable<any> {
-    return this.http.delete<any>(`http://localhost:5000/api/contacts/${user._id}`);
+    return this.http.delete<any>(`${this.baseUrl}/${user._id}`);
   }
 
 

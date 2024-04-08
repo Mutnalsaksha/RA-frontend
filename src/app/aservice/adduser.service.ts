@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AdduserService {
-  private apiUrl = 'http://localhost:5000/api/contacts';
+  private apiUrl = 'https://rmsadmin-backend-2.onrender.com/api/contacts';
 
   constructor(private http: HttpClient) { }
 
