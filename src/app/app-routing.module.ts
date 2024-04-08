@@ -23,7 +23,7 @@ const routes: Routes = [
   {path: 'Dashboard/Books', component: BookComponent},
   {path: 'Dashboard/Add New', component: AddUserComponent},
   {path: 'Dashboard/Add Bulk', component: AddbulkComponent},
-  {path: 'Dashboard/Login',component:LoginComponent},
+  // {path: 'Dashboard/Login',component:LoginComponent},
 
 ];
 
