@@ -9,6 +9,6 @@ export class OrdersService {
 
   constructor(private http:HttpClient) { }
     getorders(){
-      return this.http.get("https://rmsadmin-backend-2.onrender.com/api/orders")
+      return this.http.get("https://adminbackend-final-2.onrender.com/api/orders")
   }
 }

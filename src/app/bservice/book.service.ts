@@ -8,6 +8,6 @@ export class BookService {
 
   constructor(private http:HttpClient) { }
   getbooks(){
-    return this.http.get("https://rmsadmin-backend-2.onrender.com/api/books");
+    return this.http.get("https://adminbackend-final-2.onrender.com/api/books");
   }
 }

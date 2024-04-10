@@ -6,7 +6,7 @@ import {Observable} from "rxjs";
   providedIn: 'root'
 })
 export class UsersService {
-  private readonly baseUrl = 'https://rmsadmin-backend-2.onrender.com/api/contacts';
+  private readonly baseUrl = 'https://adminbackend-final-2.onrender.com/api/contacts';
 
   constructor(private http:HttpClient) { }
   getusers(){
