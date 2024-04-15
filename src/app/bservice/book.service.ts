@@ -7,7 +7,7 @@ import { HttpClient } from "@angular/common/http";
 export class BookService {
 
   constructor(private http:HttpClient) { }
-  getbooks(){
-    return this.http.get("https://adminbackend-final-2.onrender.com/api/books");
+  getBooks(){
+    return this.http.get("https://adminbackend-final-2.onrender.com/events/book-event");
   }
 }
