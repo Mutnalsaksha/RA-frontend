@@ -57,7 +57,7 @@ export class LoginComponent implements OnInit {
   }
 
   private handleSuccessfulLogin() {
-    this.router.navigate(['/Dashboard/Home']);
+    this.router.navigate(['Dashboard/Orders']);
   }
 
   private handleFailedLogin() {
