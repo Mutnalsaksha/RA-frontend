@@ -10,6 +10,7 @@ import {AddUserComponent} from "./adduser/adduser.component";
 import { AddbulkComponent} from "./addbulk/addbulk.component";
 import { LoginComponent} from "./login/login.component";
 import { SignupComponent} from "./signup/signup.component";
+import {TCComponent} from "./t-c/t-c.component";
 
 const routes: Routes = [
   {path: '',redirectTo: '/login', pathMatch: 'full'},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path: 'Dashboard/Add New', component: AddUserComponent},
   {path: 'Dashboard/Add Bulk', component: AddbulkComponent},
   // {path: 'Dashboard/Login',component:LoginComponent},
+  {path: 'Dashboard/TC', component:TCComponent},
 
 ];
 

@@ -15,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatDialogModule } from '@angular/material/dialog';
+import {TCComponent} from "./t-c/t-c.component";
 
 @NgModule({
     declarations: [
@@ -28,7 +29,8 @@ import { MatDialogModule } from '@angular/material/dialog';
         AddUserComponent,
         AddbulkComponent,
         LoginComponent,
-        SignupComponent
+        SignupComponent,
+        TCComponent,
     ],
     imports: [
         BrowserModule,
